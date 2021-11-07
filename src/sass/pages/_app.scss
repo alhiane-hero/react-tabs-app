@@ -1,3 +1,16 @@
+.Loading {
+    @include downUpPadding(5rem, 5rem);
+    text-align: center;
+    h2 {
+        font: {
+            size: 2.5rem;
+            weight: 700;
+        }
+        color: $blackColor;
+        letter-spacing: 0.1rem;
+    }
+}
+
 .App {
     @include downUpPadding(5rem, 5rem);
     .GridContainer {
