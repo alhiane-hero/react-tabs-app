@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-tabs-app/static/css/main.4e6d0ae3.chunk.css",
+    "main.js": "/react-tabs-app/static/js/main.3894cdbd.chunk.js",
+    "main.js.map": "/react-tabs-app/static/js/main.3894cdbd.chunk.js.map",
+    "runtime-main.js": "/react-tabs-app/static/js/runtime-main.2262963d.js",
+    "runtime-main.js.map": "/react-tabs-app/static/js/runtime-main.2262963d.js.map",
+    "static/js/2.14c1d681.chunk.js": "/react-tabs-app/static/js/2.14c1d681.chunk.js",
+    "static/js/2.14c1d681.chunk.js.map": "/react-tabs-app/static/js/2.14c1d681.chunk.js.map",
+    "static/js/3.e680c385.chunk.js": "/react-tabs-app/static/js/3.e680c385.chunk.js",
+    "static/js/3.e680c385.chunk.js.map": "/react-tabs-app/static/js/3.e680c385.chunk.js.map",
+    "index.html": "/react-tabs-app/index.html",
+    "static/css/main.4e6d0ae3.chunk.css.map": "/react-tabs-app/static/css/main.4e6d0ae3.chunk.css.map",
+    "static/js/2.14c1d681.chunk.js.LICENSE.txt": "/react-tabs-app/static/js/2.14c1d681.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2262963d.js",
+    "static/js/2.14c1d681.chunk.js",
+    "static/css/main.4e6d0ae3.chunk.css",
+    "static/js/main.3894cdbd.chunk.js"
+  ]
+}
