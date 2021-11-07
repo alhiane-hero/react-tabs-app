@@ -1,0 +1,43 @@
+.Menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    grid-gap: 1.25rem;
+    @include mobileQuery {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    article {
+        display: flex;
+        @include mobileQuery {
+            display: block;
+        }
+        img {
+            width: 225px;
+            display: block;
+            margin: 0 1.25rem 0 0;
+            border: 0.25rem solid $mainColor;
+            border-radius: 0.2rem;
+            @include mobileQuery {
+                width: 100%;
+                margin: 0 0 1.25rem 0;
+            }
+        }
+        .ItemsInfo {
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 0.75rem;
+                margin-bottom: 1.25rem;
+                border-bottom: 1px dashed #617d98;
+            }
+            footer {
+                .ItemDesc {
+                    font-weight: 400;
+                    letter-spacing: normal;
+                    line-height: 1.7;
+                    color: #617d98;
+                }
+            }
+        }
+    }
+}
